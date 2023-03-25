@@ -36,8 +36,14 @@
       <div class="container-container-header">
         <nav class="header-nav">
           <a class="header-web" href="./index.html"
-            ><span class="header-studio">Web</span>Studio</a
-          >
+            ><span class="header-studio">Web</span>Studio</a>
+
+            <button type="button" class="button-burger js-mobile-menu">
+                    <svg class="button-mobile" width="32" height="32" aria-label="Mobile menu switcher">
+                        <use class="icon-burger" href="./images/icons.svg#icon-burger"></use>
+                    </svg>
+                </button>
+            </div>
           <!--Header List-->
           <ul class="header-list">
             <li class="header-lists">
@@ -81,7 +87,7 @@
         </section>
 
         <!--Section 2-->
-        <section class="section">
+        <section class="section advantages">
           <div class="container">
           <h2 class="section-titles">Advantages</h2>
           <ul class="section-list">
@@ -445,16 +451,83 @@
   I accept the terms and conditions of the 
    <a class="policy-link" href=""> Privacy Policy </a>
 </label>
-
-
-
-
-
-
 <button type="submit" class="form-btn btn">Send</button>
  </form>
 </div>
 </div>
 <script src="modal.js/script.js"></script>
+
+
+<!-- Mobile menu -->
+    <div class="mobile-menu js-menu-container">
+
+        <!-- For button closing -->
+        <div class="mobile-btn-close">
+            <button type="button" class="btn-menu-close js-close-menu">
+                <svg class="btn-closes" width="8" height="8" aria-label="Mobile menu switcher">
+                    <use class="icon-closes" href="./images/icons.svg#close"></use>
+                </svg>
+            </button>
+        </div>
+
+        <!--Navigation -->
+        <div class="mobile-btn-navigation">
+            <nav class="mobile-nav">
+                <ul class="mobile-lists">
+                    <li class="mob-list"><a href="./index.html" class="mobile-lists studio-active">Studio</a></li>
+                    <li class="mob-list"><a href="./portfolio.html" class="mobile-lists">Portfolio</a></li>
+                    <li class="mob-list"><a href="" class="mobile-lists mob-menu-open">Contacts</a></li>
+                </ul>
+            </nav>   
+        </div>
+        
+        <!-- Address & Socials -->
+        <div class="mobile-socials">
+            <address class="mobile-address">
+                <ul class="address-mobile list">
+                    <li class="mobile-mail">
+                        <a href="mailto:info@devstudio.com" class="mobile-adress-mail">info@devstudio.com</a>
+                    </li>
+                    <li class="mobile-tel">
+                        <a href="tel:+110001111111" class="mobile-adress-tel">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            
+                <ul class="mob-social-list">
+                    <li class="mobile-social">
+                        <a href="" class="mobile-link">
+                            <svg class="mob-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social">
+                        <a href="" class="mobile-link">
+                            <svg class="mob-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social">
+                        <a href="" class="mobile-link">
+                            <svg class="mob-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social">
+                        <a href="" class="mobile-link">
+                            <svg class="mob-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
