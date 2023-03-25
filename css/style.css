@@ -378,23 +378,6 @@ margin-left: auto;
     justify-content: center;
 }
 
-@media screen and (min-width: 480px) {
-    .container {
-        max-width: 428px;
-    }
-}
-
-@media screen and (min-width: 780px) {
-    .container {
-        max-width: 768px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1160px;
-    }
-}
 .info-title {
     font-style: normal;
     font-family: inherit;
