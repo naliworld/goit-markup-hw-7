@@ -1,5 +1,151 @@
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1160px;
-    }
-}
+
+        @media screen and (min-width: 1200px) {
+            .container {
+                width: 1158px;
+            }
+    
+            /* Header */
+    
+            .header-list {
+                margin-left: 76px;
+            }
+             
+            .header-address-c {
+                flex-direction: row;
+            }
+    
+            .header-address-c .header-adress-name:last-child {
+                margin-left: 40px;
+            }
+    
+            /* Main HERO-section */
+    
+            .section-section-hero {
+                padding-top: 188px;
+                padding-bottom: 188px;
+                max-width: 1440px;
+                height: 600px;
+            }
+    
+            /* Advantages */
+    
+            .section .advantages {
+                padding-top: 120px;
+                padding-bottom: 120px;
+            }
+
+    
+            .section-list .section-items:not(:last-child) {
+                margin-right: 24px;
+            }
+    
+            .section-list .section-items {
+                width: calc((100%-24px*3)/4);
+            }
+    
+            .section-list .section-items::before {
+                content: '';
+                display: block;
+                height: 112px;
+                margin-bottom: 8px;
+                background-color: var(--footer-logo-part);
+                border-radius: 4px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+    
+             /*.section-list .section-items:nth-child(1)::before {
+                background-image: url(../images/antenna.svg);
+            }
+    
+            .section-list .section-items:nth-child(2)::before {
+                background-image: url(../images/clock.svg);
+            }
+    
+            .section-list .section-items:nth-child(3)::before {
+                background-image: url(../images/diagram.svg);
+            }
+    
+            .section-list .section-items:nth-child(4)::before {
+                background-image: url(../images/astronaut.svg);
+            }*/
+    
+            /* Works */
+    
+            .section-section-what {
+                display: block;
+            }
+    
+            /* Team */
+    
+            .section-section-team {
+                max-width: 1440px;
+                padding-top: 120px;
+                padding-bottom: 120px;
+            }
+    
+            .card-set-team-members .team-name:not(:last-child) {
+                margin-right: 24px;
+            }
+    
+            /* Customers */
+    
+            .section-section-customers {
+                padding: 120px 0;
+            }
+    
+            .customer-item {
+                margin-bottom: 0;
+                width: calc((100% - (24px * 5))/6);
+            }
+    
+            .customer-item:last-child {
+                margin-right: 0;
+            }
+    
+            /* Footer */
+    
+            .container-footer-logo {
+                margin: 0 120px 0 0;
+            }
+    
+            .footer-social {
+                margin: 0 80px 0 0;
+            }
+    
+            .footer-form-wrapper {
+                min-width: 264px;
+            }
+    
+    
+    
+            /* Background image */
+    
+            @media (min-device-pixel-ratio: 1),
+            (-webkit-min-device-pixel-ratio: 1),
+            (-o-min-device-pixel-ratio: 1/1),
+            (min-resolution: 96dpi),
+            (min-resolution: 1dppx) {
+                .section.hero {
+                    background-image: linear-gradient(to right,
+                            rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)),
+                        url(../images/hero-desktop-1x.jpg);
+                    background-color: var(--secondary-background-color);
+                }
+            }
+    
+            @media (min-device-pixel-ratio: 2),
+            (-webkit-min-device-pixel-ratio: 2),
+            (-o-min-device-pixel-ratio: 2/1),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                .section.hero {
+                    background-image: linear-gradient(to right,
+                            rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)),
+                        url(../images/hero-desktop-2x.jpg);
+                    background-color: var(--secondary-background-color);
+                }
+            }
+        }
