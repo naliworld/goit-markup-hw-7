@@ -58,7 +58,12 @@ border-bottom: solid 1px var(--color-of-paragraphs-two);
     padding: 0 15px;
 }
 
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1160px;
+    }
 
+}
 
 .header-web {
     font-family: 'Raleway';
