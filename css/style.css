@@ -957,6 +957,9 @@ img{
     z-index: 100;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms linear, visibility 250ms linear;
+
+    overflow-y: scroll;
+    opacity: 1;
 }
 
 .modal{
@@ -1067,11 +1070,11 @@ img{
 
 .modal-icons{
     position: absolute;
-    top: 50%;
+    top: 115%;
     left: 16px;
     padding-left: 4px;
     padding-bottom: 6px;
-    transform: translateY(-50%);
+    transform: translateY(50%);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1175,16 +1178,26 @@ img{
 /* Mobile */
 
 /* Burger Icon */
+
 .btn-menu-burger{
     display: inline-flex;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: none;
     background-color: transparent;
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    margin-bottom: 22px;
 }
 
-.btn-menu-burger .icon-burger{
-    display: block;
+.btn-menu-burger.open{
+    height: 100%;
+}
+
+.btn-menu-burger .btn-mobile:focus,
+.btn-menu-burger .btn-mobile:hover {
+    fill: var(--color-of-button);
 }
 .btn-menu-burger .icon-close{
     display: none;
@@ -1197,3 +1210,8 @@ img{
 .btn-menu-burger.is-open .icon-burger{
     display: none;
 }
+
+.icon-burger{
+    display: none;
+}
+
