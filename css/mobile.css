@@ -3,9 +3,80 @@
         width: 428px;
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 479px){
+    .modal{
+      overflow-y: scroll;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 767px) {
+
+
+        
+        /* Header */
+        
+        .header-web{
+            position: absolute;
+            top: 25px;
+            left: 16px;
+            margin: 0 auto;
+            padding: 0;
+            margin-bottom: 22px;
+        }
+        .header-nav{
+            height: 0;
+            overflow: hidden;
+        }
+
+        .btn-menu-burger .icon-burger{
+            display: block;
+        }
+
+        .container-container-header{
+            display: block;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+        }
       
-       
+        .header-list {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0;
+           
+        }
+
+        .header-adress-name{
+            visibility: hidden;
+            margin: 0 auto;
+            padding: 0px;
+        }
+                
+        .header-adress-c {
+            display: block;
+            text-align: center;
+            padding-bottom: 22px;
+        }
+
+
+        /* Section 1 */
+
+        
+
+        /*.hero-title {
+            display: flex;
+            text-align: center;
+            padding: 0;
+            margin-bottom: 16px;
+        }*/
+
+
+
         /* Team */
 
         .card-set-team-members .team-name:not(:last-child) {
@@ -164,4 +235,4 @@
         margin-top: 16px;
       }
 
-}
+    }
