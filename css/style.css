@@ -1172,3 +1172,28 @@ img{
 
 
 
+/* Mobile */
+
+/* Burger Icon */
+.btn-menu-burger{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-menu-burger .icon-burger{
+    display: block;
+}
+.btn-menu-burger .icon-close{
+    display: none;
+}
+
+.btn-menu-burger.is-open .icon-close{
+    display: block;
+}
+
+.btn-menu-burger.is-open .icon-burger{
+    display: none;
+}
