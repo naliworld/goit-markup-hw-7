@@ -1211,7 +1211,61 @@ img{
     display: none;
 }
 
-.icon-burger{
-    display: none;
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    fill: var(--color-of-paragraphs-two);
+    transform: scaleY(0);
+    transition: transform 800ms var(--animation-function);
+    z-index: 666;
+    pointer-events: none;
+    transform-origin: bottom;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    background-color: var(--color-of-paragraphs-two) ;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08) ;
 }
+
+
+.mobile-menu.is-open {
+   transform: scaleY(1);
+   transform-origin: top;
+   transition: transform 800ms ;
+   pointer-events: all;
+}
+
+.mobile-menu-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: var(--color-of-paragraphs-two);
+}
+
+.mobile-menu-button:focus,
+.mobile-menu-button:hover{
+    background-color: var(--color-of-button);
+    fill: var(--background-color-etc);
+
+}
+
+
+
+/*.icon-burger{
+    display: none;
+}*/
 
