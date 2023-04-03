@@ -54,20 +54,19 @@
         
     }
     
-    .section-list{
+    /*.section-list{
         flex-wrap: wrap;
         padding: 0;
-        gap: 72px;
+        gap: 72px 24px;
         margin-top: 72px;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
     .section-items{
-        height: 72px;
-        width: 768px;
+        width: calc((100% - 24px) / 2)
         padding: 0px;
         gap: 8px;
-    }
+    }*/
 
     .section-title{
         font-weight: 700;
@@ -164,17 +163,22 @@
     }
 
     /* Footer */
-
+    
+    .container-footer{
+        flex-wrap: wrap;
+        max-width: 565px;
+    }
 
     .container-footer-logo {
-        justify-content: center;
-        text-align: center;
+        /*text-align: center;*/
         margin: 0 auto;
         padding: 0;
         margin-bottom: 72px;
     }
 
-    .footer-social {}
+    .footer-social {
+        margin: 0px;
+    }
 
     .footer-socials {
         text-align: center;
@@ -190,14 +194,14 @@
         margin-bottom: 72px;
 
     }
+  
 
-
-    /*.footer-form {
+   /* .footer-form {
     margin: 0 auto;
-    padding: 0;
+    padding: 0;*/
 }
 
-.footer-form-title {
+/*.footer-form-title {
     display: block;
     text-align: center;
     padding: 0;
@@ -223,10 +227,9 @@
 .submit-subscribe {
     padding: 0;
     margin: 0 auto;
-    margin-top: 16px;
+    margin-left: 20px;
+    /*margin-top: 16px;*/
  }
-
-}
 
 .container.hero-title {
     margin: 0 auto 36px;
@@ -265,6 +268,17 @@
 
     .section-list {
         flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 72px 24px;
+        margin-top: 72px;
+    }
+
+    .section-items{
+        width: calc((100% - 24px) / 2);
+        padding: 0px;
+        gap: 8px;
     }
 
     .container-footer {
@@ -276,7 +290,7 @@
     .footer-form {
         max-width: calc(552px + (15px *2));
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 30px;
     }
 }
     
