@@ -255,8 +255,9 @@
   (min-resolution: 1dppx) {
 
     .section-section-hero {
-      background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-header.jpg);
+      background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-header-2x.jpg);
       background-color: var(#2e2f42);
+      width: 429px;
     }
   }
 }
