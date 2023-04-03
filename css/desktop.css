@@ -2,6 +2,7 @@
     .container {
         width: 1158px;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     .section-section-customers{
         padding-right: 0px;
@@ -11,5 +12,29 @@
     .btn-menu-burger{
         visibility: hidden;
     }
+
+    .section-section-hero{
+        width: 100%;
+    }
     }
 
+        /* Background image */
+        @media screen and (min-width: 1199px) and (max-width: 1200px) {
+        @media (min-device-pixel-ratio: 1),
+        (-webkit-min-device-pixel-ratio: 1),
+        (-o-min-device-pixel-ratio: 1/1),
+        (min-resolution: 96dpi),
+        (min-resolution: 1dppx) {
+            .section.hero {
+                background-image: linear-gradient(to right,
+                        rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office-2x.jpg);
+                background-color: var(#2e2f42);
+                width: 1158px;
+                
+                
+            }
+        }
+
+    }
