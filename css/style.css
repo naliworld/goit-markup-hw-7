@@ -1277,7 +1277,7 @@ img{
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-    position: absolute;
+    /*position: absolute;*/
     width: 151px;
     height: 200px;
     left: 40px;
@@ -1309,15 +1309,15 @@ img{
     gap: 40px;
     position: absolute;
     /*width: 353px;
-    height: 181px;
     left: 48px;*/
+    height: 181px;
     top: 464px;
     list-style: none;
 }
 
 .mob-menu-address{
     margin-left: 0 auto;
-    margin-top: 530px;
+    margin-top: 360px;
 }
 
 .address-mail{
@@ -1357,8 +1357,8 @@ img{
     flex-direction: row;
     gap: 56px;
     padding: 0px;
-    padding-top: 48px;
-    padding-bottom: 40px;
+    /*padding-top: 48px;
+    padding-bottom: 40px;*/
     
 }
 
@@ -1375,11 +1375,11 @@ img{
 .mob-social-link{
     padding: 0px;
     gap: 56px;
-    position: absolute;
+    /*position: absolute;*/
     width: 328px;
     height: 40px;
     left: 40px;
-    top: 716px;
+    /*top: 716px;*/
 }
 
 .mob-soc-link{
