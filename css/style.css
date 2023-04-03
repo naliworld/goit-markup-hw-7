@@ -1256,6 +1256,7 @@ img{
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background-color: var(--color-of-paragraphs-two);
+    fill: var(--accent-text-color);
 }
 
 .mobile-menu-button:focus,
@@ -1264,9 +1265,10 @@ img{
     fill: var(--background-color-etc);
 }
 
-.close-button{
- color: var(--accent-text-color);
-}
+/*.close-button{
+ fill: var(--accent-text-color);
+}*/
+
 
 
 .mob-list{
@@ -1281,6 +1283,7 @@ img{
     left: 40px;
     top: 80px;
     list-style: none;
+    text-decoration: none;
 }
 
 .mob-lists{
@@ -1289,6 +1292,13 @@ img{
     line-height: 40px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--accent-text-color);
+}
+
+.mob-lists:hover,
+.mob-lists:focus{
+    color: var(--color-of-button);
+    cursor: pointer;
 }
 
 .mob-address-list{
@@ -1298,11 +1308,16 @@ img{
     padding: 0px;
     gap: 40px;
     position: absolute;
-    width: 353px;
+    /*width: 353px;
     height: 181px;
-    left: 48px;
-    top: 564px;
+    left: 48px;*/
+    top: 464px;
     list-style: none;
+}
+
+.mob-menu-address{
+    margin-left: 0 auto;
+    margin-top: 530px;
 }
 
 .address-mail{
@@ -1311,7 +1326,13 @@ img{
     line-height: 40px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--accent-text-color-two);
+    font-style: normal;
+}
+.address-mail:hover,
+.address-mail:focus{
     color: var(--color-of-button);
+    cursor: pointer;
 }
 
 .address-tel{
@@ -1320,12 +1341,24 @@ img{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-of-paragraphs);
+    font-style: normal;
+
+}
+
+.address-tel:hover,
+.address-tel:focus{
+    color: var(--color-of-button);
+    cursor: pointer;
 }
 
 .mob-social-links{
     list-style: none;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    gap: 56px;
+    padding: 0px;
+    padding-top: 48px;
+    padding-bottom: 40px;
     
 }
 
