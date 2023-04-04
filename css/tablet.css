@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
-        overflow-x: hidden;
+        
         
     }
 
@@ -306,13 +306,20 @@
         margin-bottom: 72px;
     }
     
+    .container .customer-list{
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
     .customer-list {
         width: 100%;
         flex-wrap: wrap;
         margin: 0 auto;
         padding: 0;
-        margin-left: 90px;
-        margin-right: 90px;
+        gap: 24px;
+        /*margin-left: 90px;
+        margin-right: 90px;*/
         /*justify-content: center;
         align-items: center;*/
     
