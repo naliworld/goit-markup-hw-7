@@ -1,8 +1,7 @@
 @media screen and (min-width: 1200px) {
     .container {
         width: 1158px;
-        overflow-x: hidden;
-        overflow-y: hidden;
+       
     }
     .section-section-customers{
         padding-right: 0px;
@@ -16,6 +15,27 @@
     .section-section-hero{
         width: 100%;
     }
+
+    .container .customer-list{
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .customer-list{
+        width: 100%;
+        /*flex-wrap: wrap;*/
+        margin: 0 auto;
+        padding: 0;
+        gap: 24px;
+    }
+
+    .footer-desc{
+        margin-right: 120px;
+    }
+
     }
 
         /* Background image */
