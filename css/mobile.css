@@ -4,8 +4,7 @@
   }
   .container {
     max-width: 428px;
-    overflow-x: hidden;
-    overflow-y: hidden;
+   
   }
 
 
@@ -96,7 +95,7 @@
   text-align: left;
   margin: 0 auto;
   padding: 0;
-  width: 396px;
+  /*width: 396px;*/
   height: 48px;
 }
 
@@ -167,12 +166,14 @@
   margin: 0 auto;
   padding: 0;
   justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+  padding-bottom: 72px;
 
 }
 
-.customer-item {
-  margin-bottom: 72px;
-}
+
 
 
 
@@ -199,6 +200,7 @@
 
 .footer-social {
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .footer-socials {
@@ -239,7 +241,7 @@
 .footer-form-wrapper input {
   justify-content: center;
   margin: 0 auto;
-  width: 400px;
+  /*width: 400px;*/
   height: 40px;
 }
 
@@ -249,7 +251,9 @@
   margin: 0 auto;
   margin-top: 16px;
 }
-
+/*.mob-social-links{
+  justify-content: flex-start;
+}*/
 
 /* Background image */
 
