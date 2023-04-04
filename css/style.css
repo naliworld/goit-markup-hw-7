@@ -549,9 +549,9 @@ margin: 0 auto;
 .customer-item{
    display: flex;
 }
-.customer-item:not(:last-child){
+/*.customer-item:not(:last-child){
     margin-right: 24px;
-}
+}*/
 .link-customer-links{
     display: flex;
     align-items: center;
@@ -626,12 +626,13 @@ margin: 0 auto;
     line-height: 24px;
     color: var(--color-of-paragraphs-two);
     width: 264px;
-    gap: 16px;
+    /*gap: 16px;*/
     margin-left: 0;
+    
 }
 
 .footer-social{
-    margin-left: 120px;
+    /*margin-left: 120px;*/
 }
 
 .footer-socials{
