@@ -13,7 +13,7 @@
     }
 
     .section-section-hero{
-        width: 100%;
+        /*max-width: 1200px;*/
     }
 
     .container .customer-list{
@@ -52,6 +52,7 @@
                     url(../images/people-office-2x.jpg);
                 background-color: var(#2e2f42);
                 width: 1158px;
+                justify-content: center;
                 
                 
             }
