@@ -70,18 +70,23 @@
 .hero-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 40px;
     width: 100%;
     max-width: 320px;
     padding-bottom: 72px;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    font-style: normal;
  }
 
 
 /* Section 2 */
 
 .section-title{
+  font-weight: 700;
+  font-style: normal;
   font-size: 36px;
-  line-height: 48px;
+  line-height: 40px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -89,6 +94,8 @@
 }
 
 .section-p{
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
